@@ -1,0 +1,91 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+height: 100vh;
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,73,76,1) 0%, rgba(249,89,123,1) 100%) no-repeat;
+}
+
+
+.addnewtask {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+input {
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    border: none;
+    font-size: 20px;
+}
+
+.tasklist {
+    margin-left: calc(50% - 207px);
+    background-color: white;
+    width: 400px;
+    min-height: 50px;
+    margin-top: 25px;
+    padding: 20px;
+    font-size: 20px;
+}
+.addnew {
+    color: rgb(106, 106, 231);
+    text-transform: uppercase;
+    width: 100px;
+    height: 100px;
+    border-radius: none;
+    border: none;
+    padding: 10px 10px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+li {
+    text-align: left;
+    list-style-type: none;
+    margin: 20px auto;
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+}
+
+.clear {
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    transform: translateX(300%);
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(106, 106, 231);
+}
+
+button {
+background-color: rgb(204, 57, 57);
+margin-right: 15px;
+font-weight: bold;
+border: none;
+}
+
+.addnew:hover, .clear:hover {
+    cursor: pointer;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
